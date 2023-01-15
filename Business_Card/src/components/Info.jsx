@@ -9,7 +9,6 @@ export default function Info() {
       <p className="my-web">SeniorSam.website</p>
       <a href="mailto:rxrldHP090@outlook.com">
         <button>
-          {/* <i className="fa-solid fa-envelope"></i> */}
           <FaEnvelope /> Email
         </button>
       </a>
