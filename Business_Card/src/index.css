@@ -16,3 +16,21 @@ p {
 h4 {
   color: #f3bf99;
 }
+img {
+  width: 100%;
+}
+.container {
+  width: 30%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.job,
+.name,
+.my-web {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
