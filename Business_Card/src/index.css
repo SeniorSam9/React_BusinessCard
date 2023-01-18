@@ -13,19 +13,47 @@ h3,
 p {
   color: #fff;
 }
+p {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
 h4 {
   color: #f3bf99;
 }
 img {
   width: 100%;
 }
+
+li {
+  color: #fff;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+li::marker {
+  color: #58a6ff;
+  font-size: 1rem;
+}
 .container {
   width: 30%;
   border-radius: 1rem;
+  border-width: 0.05rem;
+  border-style: solid;
+  border-color: #58a6ff;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  background-color: #1a1b21;
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+  }
 }
 .job,
 .name,
@@ -33,4 +61,68 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.my-web {
+  margin-top: 1rem;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem 0;
+}
+button {
+  border: none;
+  color: white;
+  padding: 0.8rem 1.6rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 1rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.email-btn,
+.linked-btn {
+  background-color: white;
+  color: black;
+  border: 2px solid #58a6ff;
+}
+
+.email-btn:hover,
+.linked-btn:hover {
+  background-color: #58a6ff;
+  color: white;
+}
+.About {
+  margin-bottom: 1rem;
+}
+.Interests {
+  margin-bottom: 1.6rem;
+}
+.Projects {
+  margin-bottom: 1.6rem;
+}
+.About,
+.Interests,
+.Projects {
+  width: 80%;
+}
+.abt-header,
+.Int-header,
+.pro-header {
+  margin-bottom: 1rem;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #161619;
+  padding: 0.5rem 0;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.footer > * {
+  margin-right: 1rem;
 }
